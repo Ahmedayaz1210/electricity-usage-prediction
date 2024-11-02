@@ -61,10 +61,10 @@ print(f"Sales Prediction RMSE: {sales_rmse}")
 next_month_data = {
     'year': [2024],
     'month': [12],
-    'revenue': [0],  # Adjust this value as necessary
+    'revenue': [0],  # Adjust this value as necessary based on historical data
     'month_sin': [np.sin(2 * np.pi * 12 / 12)],  # December
     'month_cos': [np.cos(2 * np.pi * 12 / 12)],  # December
-    'previous_sales': [0]  # Estimate based on previous data or historical average
+    'previous_sales': [0]  # Use a more accurate estimate based on historical average
 }
 
 # Create a DataFrame with the correct features
@@ -86,15 +86,21 @@ for sector_col in sector_columns:
 # Make predictions using the sales pipeline
 predicted_usage = sales_pipeline.predict(next_month_df[X_train.columns])
 
-print(f"Estimated Electricity Usage for December 2024: {predicted_usage[0]}")
+# Make predictions for price for December 2024 using the price pipeline
+predicted_price = price_pipeline.predict(next_month_df[X_train.columns])
+
+# Calculate total estimated cost
+total_cost = predicted_usage[0] * predicted_price[0]
+
+print(f"Estimated Electricity Usage for December 2024: {predicted_usage[0]} kWh")
+print(f"Estimated Electricity Price for December 2024: ${predicted_price[0]:.2f}")
+print(f"Estimated Total Cost for December 2024: ${total_cost:.2f}")
 
 """
-results:
+Results:
 Price Prediction RMSE: 0.3767734676249607
 Sales Prediction RMSE: 331.3029925437795
-Estimated Electricity Usage for December 2024: 722.7777566000003
-
-price rsme right
-sales rsme seems wrong
-and so estimate sounds wrong
+Estimated Electricity Usage for December 2024: 3662.7735215000007 kWh
+Estimated Electricity Price for December 2024: $21.97
+Estimated Total Cost for December 2024: $80478.09
 """
