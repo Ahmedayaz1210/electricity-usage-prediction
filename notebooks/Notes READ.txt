@@ -1,4 +1,0 @@
-1. Change File Paths: first for reading 3 csv in section 2.1 (remove read_csv weather data it was created to avoid extracting data again)
-2. Change File Paths for 4 check points created to write_csv file 1st for gathered weather data, 2nd for cleaned 3 datasets (elec_usage, weather, cities), 3rd merge data final_data, 4th FE_final_data (added columns)
-
-3. removed read files code one was in 2.5 column, one is in 3.1 
