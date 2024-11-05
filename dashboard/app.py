@@ -5,6 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
 import calendar
+import os
 
 # Sample data loading
 # Replace 'your_data.csv' with the path to your CSV file, or adjust accordingly if you have the DataFrame in memory
@@ -126,5 +127,7 @@ def update_graph(selected_states):
     return fig, scatter_fig
 
 # Run the app
+
 if __name__ == '__main__':
-    app.run_server(debug=True, use_reloader=False)
+    port = int(os.environ.get('PORT', 8050))  # Default to 8050 if PORT is not set
+    app.run_server(host='0.0.0.0', port=port, debug=True)
