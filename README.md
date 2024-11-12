@@ -238,7 +238,7 @@ Population-based strategy results:
 ```bash
 pip install pandas numpy xgboost scikit-learn matplotlib seaborn
 ```
-3. Open and run `notebooks/Electricity_Usage_Prediction.ipynb`
+3. Open and run `final_project/Electricity_Usage_Prediction.ipynb`
 
 ## References
 1. Electricity Dataset: Kaggle
