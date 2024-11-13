@@ -241,7 +241,7 @@ pip install pandas numpy xgboost scikit-learn matplotlib seaborn
 3. Open and run `final_project/Electricity_Usage_Prediction.ipynb`
 
 ## References
-1. Electricity Dataset: Kaggle
-2. Weather Data: Meteostat Python Library
-3. City Information: SimpleMaps U.S. Cities Data
+1. Electricity Dataset: [Kaggle](https://www.kaggle.com/datasets/alistairking/electricity-prices)
+2. Weather Data: [Meteostat Python Library](https://dev.meteostat.net/)
+3. City Information: SimpleMaps U.S. Cities Data (Krish can add this)
 
