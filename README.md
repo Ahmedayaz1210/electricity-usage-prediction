@@ -243,5 +243,5 @@ pip install pandas numpy xgboost scikit-learn matplotlib seaborn
 ## References
 1. Electricity Dataset: [Kaggle](https://www.kaggle.com/datasets/alistairking/electricity-prices)
 2. Weather Data: [Meteostat Python Library](https://dev.meteostat.net/)
-3. City Information: SimpleMaps U.S. Cities Data (Krish can add this)
+3. City Information: [SimpleMaps U.S. Cities Data](https://simplemaps.com/data/us-cities)
 
