@@ -232,7 +232,7 @@ Population-based strategy results:
    - Cross-state dependencies
    - Extreme weather impacts
 
-## Setup and Usage
+### 5.4 Setup and Usage
 1. Clone the repository
 2. Install required packages:
 ```bash
@@ -240,8 +240,25 @@ pip install pandas numpy xgboost scikit-learn matplotlib seaborn
 ```
 3. Open and run `final_project/Electricity_Usage_Prediction.ipynb`
 
-## References
+## 6. References
+
+### 6.1 Data Sources
 1. Electricity Dataset: [Kaggle](https://www.kaggle.com/datasets/alistairking/electricity-prices)
 2. Weather Data: [Meteostat Python Library](https://dev.meteostat.net/)
 3. City Information: [SimpleMaps U.S. Cities Data](https://simplemaps.com/data/us-cities)
+
+### 6.2 Tools and Libraries
+1. **Data Analysis & Machine Learning**:
+   - NumPy: Numerical computing and array operations
+   - Pandas: Data manipulation and analysis
+   - Scikit-learn: Machine learning algorithms and evaluation metrics
+   - XGBoost: Gradient boosting implementation
+   - Seaborn: Statistical data visualization
+   - Matplotlib: Data visualization and plotting
+   - Meteostat: Weather data retrieval and processing
+
+2. **Dashboard & Visualization**:
+   - Panel: Interactive web application framework
+   - Flask: Web application framework
+   - Renderer: Cloud hosting service
 
