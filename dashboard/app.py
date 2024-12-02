@@ -35,8 +35,9 @@ def update_image(event):
     state = state_selector.value
     year = year_selector.value
     
+    url_state = state.replace(" ", "_")
     # Construct the correct remote image URL
-    image_url = f"https://raw.githubusercontent.com/Ahmedayaz1210/electricity-usage-prediction/refs/heads/main/datasets/state_plots_{year}/{state}_{year}.png"
+    image_url = f"https://raw.githubusercontent.com/Ahmedayaz1210/electricity-usage-prediction/refs/heads/main/datasets/state_plots_{year}/{url_state}_{year}.png"
     
     try:
         # Fetch the image from the remote URL
