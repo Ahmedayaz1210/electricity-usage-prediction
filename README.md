@@ -1,6 +1,10 @@
 # Predicting Electricity Usage
 
-Project's Dashboard Link: [Dashboard](https://electricity-usage-prediction.vercel.app/)
+## Project Dashboard
+[![Dashboard](https://img.shields.io/badge/Visit-Dashboard-blue?style=for-the-badge&logo=vercel)](https://electricity-usage-prediction.vercel.app/)
+
+## Project Presentation
+
 
 By: Ahmed Ayaz, Krish Patel & Dylan Patel
 Date: 12/2/2024
