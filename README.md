@@ -1,6 +1,6 @@
 # Predicting Electricity Usage
 
-Project's Dashboard Link: [Dylan will add this]
+Project's Dashboard Link: [Dashboard](https://electricity-usage-prediction.vercel.app/)
 
 By: Ahmed Ayaz, Krish Patel & Dylan Patel
 Date: 12/2/2024
