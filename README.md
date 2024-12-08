@@ -4,7 +4,9 @@
 [![Dashboard](https://img.shields.io/badge/Visit-Dashboard-blue?style=for-the-badge&logo=vercel)](https://electricity-usage-prediction.vercel.app/)
 
 ## Project Presentation
-[![Project Presentation](https://img.shields.io/badge/View-Presentation-green?style=for-the-badge&logo=github)](https://github.com/Ahmedayaz1210/electricity-usage-prediction/blob/main/final_notebook%26presentation/Electricity-Usage-Prediction-Presentation.pdf)
+[![Project Presentation PDF](https://img.shields.io/badge/View-Presentation-green?style=for-the-badge&logo=github)](https://github.com/Ahmedayaz1210/electricity-usage-prediction/blob/main/final_notebook%26presentation/Electricity-Usage-Prediction-Presentation.pdf)
+
+[![Project Presentation Video (Modeling and Prediction)](https://img.shields.io/badge/View-Presentation-green?style=for-the-badge&logo=youtube)](https://youtu.be/Yx8KJ44wufU)
 
 By: Ahmed Ayaz, Krish Patel & Dylan Patel
 Date: 12/2/2024
